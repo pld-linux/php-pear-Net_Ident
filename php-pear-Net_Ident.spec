@@ -8,7 +8,7 @@ Summary:	%{_pearname} - identification protocol implementation
 Summary(pl):	%{_pearname} - implementacja protoko³u identyfikacji
 Name:		php-pear-%{_pearname}
 Version:	1.0
-Release:	3
+Release:	4
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 # Source0-md5:	69dd46d5b0a63af10ebbd1d7efadf86e
