@@ -1,9 +1,10 @@
 %include	/usr/lib/rpm/macros.php
-%define         _class          Net
-%define         _subclass       Ident
+%define		_class		Net
+%define		_subclass	Ident
 %define		_status		stable
 %define		_pearname	%{_class}_%{_subclass}
-Summary:	%{_pearname} - Identification Protocol implementation
+
+Summary:	%{_pearname} - identification protocol implementation
 Summary(pl):	%{_pearname} - implementacja protoko³u identyfikacji
 Name:		php-pear-%{_pearname}
 Version:	1.0
