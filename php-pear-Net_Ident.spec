@@ -7,12 +7,12 @@
 Summary:	%{_pearname} - identification protocol implementation
 Summary(pl):	%{_pearname} - implementacja protoko³u identyfikacji
 Name:		php-pear-%{_pearname}
-Version:	1.0
-Release:	4
+Version:	1.1.0
+Release:	1
 License:	PHP 2.02
 Group:		Development/Languages/PHP
-# Source0-md5:	69dd46d5b0a63af10ebbd1d7efadf86e
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
+# Source0-md5:	dc2b3e0179c485816c171f8822ff0381
 URL:		http://pear.php.net/package/Net_Ident/
 BuildRequires:	rpm-php-pearprov >= 4.0.2-98
 Requires:	php-pear
