@@ -27,7 +27,7 @@ of a particular TCP connection. Given a TCP port number pair, it
 returns a character string which identifies the owner of that
 connection on the server's system.
 
-This class has in PEAR status: %{_status}.
+In PEAR status of this package is: %{_status}.
 
 %description -l pl
 Klasa PEAR::Net_Ident to implementacja protoko³u identyfikacji wed³ug
