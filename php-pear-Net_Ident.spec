@@ -1,0 +1,41 @@
+%include	/usr/lib/rpm/macros.php
+%define         _class          Net
+%define         _subclass       Ident
+%define		_pearname	%{_class}_%{_subclass}
+Summary:	%{_pearname} - Identification Protocol implementation
+Summary(pl):	%{_pearname} - implementacja protoko³u identyfikacji
+Name:		php-pear-%{_pearname}
+Version:	1.0
+Release:	1
+License:	PHP 2.02
+Group:		Development/Languages/PHP
+Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
+URL:		http://pear.php.net/
+BuildRequires:	rpm-php-pearprov
+Requires:	php-pear
+BuildArch:	noarch
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
+
+%description
+The PEAR::Net_Ident implements Identification Protocol according to
+RFC 1413. The Identification Protocol (a.k.a., "ident", a.k.a., "the
+Ident Protocol") provides a means to determine the identity of a user
+of a particular TCP connection. Given a TCP port number pair, it
+returns a character string which identifies the owner of that
+connection on the server's system.
+
+%prep
+%setup -q -c
+
+%install
+rm -rf $RPM_BUILD_ROOT
+install -d $RPM_BUILD_ROOT%{php_pear_dir}/%{_class}
+
+install %{_pearname}-%{version}/*.php $RPM_BUILD_ROOT%{php_pear_dir}/%{_class}
+
+%clean
+rm -rf $RPM_BUILD_ROOT
+
+%files
+%defattr(644,root,root,755)
+%{php_pear_dir}/%{_class}/*.php
