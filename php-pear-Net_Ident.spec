@@ -10,6 +10,7 @@ Version:	1.0
 Release:	3
 License:	PHP 2.02
 Group:		Development/Languages/PHP
+# Source0-md5:	69dd46d5b0a63af10ebbd1d7efadf86e
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
 URL:		http://pear.php.net/
 BuildRequires:	rpm-php-pearprov >= 4.0.2-98
