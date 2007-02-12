@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - identification protocol implementation
-Summary(pl):	%{_pearname} - implementacja protoko≥u identyfikacji
+Summary(pl.UTF-8):   %{_pearname} - implementacja protoko≈Çu identyfikacji
 Name:		php-pear-%{_pearname}
 Version:	1.1.0
 Release:	3
@@ -31,12 +31,12 @@ connection on the server's system.
 
 In PEAR status of this package is: %{_status}.
 
-%description -l pl
-Klasa PEAR::Net_Ident to implementacja protoko≥u identyfikacji wed≥ug
-RFC 1413. ProtokÛ≥ identyfikacji (Identification Protocol, znany takøe
-jako ident lub Ident Protocol) daje moøliwo∂Ê okre∂lenia, kto jest
-uøytkownikiem danego po≥±czenia TCP. Po podaniu pary portÛw TCP zwraca
-≥aÒcuch znakÛw identyfikuj±cy w≥a∂ciciela tego po≥±czenia na systemie
+%description -l pl.UTF-8
+Klasa PEAR::Net_Ident to implementacja protoko≈Çu identyfikacji wed≈Çug
+RFC 1413. Protok√≥≈Ç identyfikacji (Identification Protocol, znany tak≈ºe
+jako ident lub Ident Protocol) daje mo≈ºliwo≈õƒá okre≈õlenia, kto jest
+u≈ºytkownikiem danego po≈ÇƒÖczenia TCP. Po podaniu pary port√≥w TCP zwraca
+≈Ça≈Ñcuch znak√≥w identyfikujƒÖcy w≈Ça≈õciciela tego po≈ÇƒÖczenia na systemie
 serwera.
 
 Ta klasa ma w PEAR status: %{_status}.
