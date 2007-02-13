@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - identification protocol implementation
-Summary(pl.UTF-8):   %{_pearname} - implementacja protokołu identyfikacji
+Summary(pl.UTF-8):	%{_pearname} - implementacja protokołu identyfikacji
 Name:		php-pear-%{_pearname}
 Version:	1.1.0
 Release:	3
